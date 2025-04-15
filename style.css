@@ -158,7 +158,7 @@ header {
 .skills__content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 30px;
+    gap: 50px;
 }
 
 .skills__item {
@@ -168,6 +168,8 @@ header {
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 200px;
+    height: 200px;
 }
 
 .skills__item:hover {
